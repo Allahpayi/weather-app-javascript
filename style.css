@@ -1,0 +1,24 @@
+body{
+    background-image: url('./bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
+#data{
+    text-align: center;
+}
+#data .temp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font-size: 30px;
+    font-weight: 700;
+}
+#data .info span {
+    color: #252222;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
